@@ -2,10 +2,24 @@
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", 'xml:lang' => "en" }
   %head
     %title soveran
-    %meta{ 'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }/
+    %meta{ 'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }
+    %link{:rel => 'stylesheet', :href => 'stylesheets/index.css', :type => 'text/css'}
   %body
-    #header
-      %h1 soveran
-    #footer
+    #content
+      #header
+        %h1 soveran
+
       %p
-        &copy; soveran
+        Welcome to my github page. Feel free to visit my
+        %a{:href => "http://github.com/soveran"} repositories.
+
+      #footer
+        %p
+          site:
+          %a{:href => 'http://soveran.com'} soveran.com
+          \/
+          blog:
+          %a{:href => 'http://blog.soveran.com'} blog.soveran.com
+          \/
+          company:
+          %a{:href => 'http://citrusbyte.com'} citrusbyte.com

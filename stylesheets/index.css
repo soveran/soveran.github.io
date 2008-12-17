@@ -1,0 +1,13 @@
+body {
+  font-family: Georgia;
+  background-color: whitesmoke;
+  color: black; }
+  body h1 {
+    letter-spacing: -2px; }
+  body a {
+    text-decoration: none;
+    border-bottom: 1px dotted pink; }
+  body #content {
+    margin: 4em; }
+  body #footer {
+    font-size: 75%; }
